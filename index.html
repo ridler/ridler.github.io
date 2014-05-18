@@ -22,7 +22,7 @@
 
   <body style="background-color:white">
 
-    <div class="header" style="background-color:white; width:100%; position: fixed; margin-top: -10px; padding:10px">
+    <div class="header" style="background-color:white; width:100%; position: fixed; margin-top: -10px; padding:10px; display:none">
         <div style="font-size: 18px; text-align:center">
           <a style="padding:5px" href="#">Home</a>
           <a style="padding:5px"href="#resume">Resume</a>
@@ -33,9 +33,9 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron" style="background-color:white; margin-top:10px; margin-bottom: 0px;">
       <div class="container">
-        <h1 style="text-align:center; color:#EB9A9A">Forrest Tagg Ridler</h1>
+        <h1 style="text-align:center; color:#EB9A9A; display:none";>Forrest Tagg Ridler</h1>
 
-        <table style="margin: auto">
+        <table style="margin:auto; display: none">
         	<tr>
         		<td><a href="http://www.linkedin.com/pub/forrest-ridler/82/446/427"><img src="https://lh6.ggpht.com/DP4Lbh_k6h1ib6kwo_4IqQP48C8XpEkfBINCDdYkHyygL9TIJVQLrvoeFiYa2myKBKQ=w300" width="60px" height="60px" style="padding:5px"></a></td>
         		<td><a href="http://www.github.com/ridler"><img src="http://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png" width="75px" height="75px"style="padding:5px"></a></td>
@@ -45,7 +45,7 @@
       </div>
     </div>
 
-    <div class="container" style="margin-top:-10px; background-color: #EB9A9A">
+    <div class="container" style="margin-top:-10px; background-color: #EB9A9A; display:none">
       <!-- Example row of columns -->
       <h1 id="resume">Resume</h1>
       <h3 id="objective">Objective</h3>
@@ -87,14 +87,14 @@
 
   </div>
 
-  <div class="container" style="background-color: #EB9A9A; margin-top:20px">
+  <div class="container" style="background-color: #EB9A9A; margin-top:20px; display:none">
   	<h1 id="contact">Contact Me</h1>
   	<p>Email: forrest (dot) ridler (at) colorado.edu</p>
   	<p>Phone: (970) 390-8496</p>
   </div>
       <hr>
 
-      <footer>
+      <footer style="display:none">
         <p>&copy; Forrest Ridler 2014</p>
       </footer>
     </div> <!-- /container -->
@@ -105,5 +105,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/s.js"></script>
   </body>
 </html>
