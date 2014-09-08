@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="description" content="Forrest Tagg Joshua Ridler">
+	    <meta name="author" content="Forrest Tagg Joshua Ridler">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>  
+	    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="style.css" rel="stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="s.js"></script>
+	</head>
+	<body>
+		<div class="container" id="home">
+			<div class="absolute-center">
+				<h1>Forrest Tagg Joshua Ridler</h1>
+				<img src="img/me.jpg" id="me-pic">
+				<div class="subcenter">
+					<table class="table"></tr>
+						<td align="left" class="tc-b" id="tc-resume"><a href="#resume" id="resume-link"><p class="nav-sub">CV</p></a></td>
+						<td align="center" class="tc-b" id="tc-linkedin"><a href="https://www.linkedin.com/pub/forrest-ridler/82/446/427"><img class="nav-sub" src="img/linkedin.png"></a></td>
+						<td align="right" class="tc-b" id="tc-github"><a href="http://github.com/ridler"><img class="nav-sub" src="img/github.png"></a></td>
+					</tr></table>
+				</div>
+				<div class="alert alert-info msg" id="msg-resume"><p>View my resume</p></div>
+				<div class="alert alert-info msg" id="msg-linkedin"><p>Find me on LinkedIn</p></div>
+				<div class="alert alert-info msg" id="msg-github"><p>View my GitHub profile</p></div>
+			</div>
+		</div>
+		<div class="container" id="resume" style="display:none">
+			<h1><a href="#"<span class="glyphicon glyphicon-home home-icon"></span></a>Resume</h1>
+			<iframe id="embed-doc" src="https://docs.google.com/document/d/1yEv-LJPsKHnD-qsvyrGhtrG2zzdTQTa1NAmMQS8n9fo/pub?embedded=true"></iframe>
+		</div>
+	</body>
+</html>
