@@ -1,0 +1,531 @@
+{
+  "artists" : {
+    "href" : "https://api.spotify.com/v1/search?query=tania*&offset=0&limit=20&type=artist",
+    "items" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/65taSIk8y1qNzK8ddRewQe"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 745
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/65taSIk8y1qNzK8ddRewQe",
+      "id" : "65taSIk8y1qNzK8ddRewQe",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/1814ed4d08307fd957b1cfc108d78520130abd1a",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/14044d7c37ae4e5b8df5dae5a93685efcfb6f5e8",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/f444d668bfa1a057e1759c6266f8fbf471eb6c04",
+        "width" : 64
+      } ],
+      "name" : "Tania Zygar",
+      "popularity" : 43,
+      "type" : "artist",
+      "uri" : "spotify:artist:65taSIk8y1qNzK8ddRewQe"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/26DN8VRVU1IRg0AFgUfMZO"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 3073
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/26DN8VRVU1IRg0AFgUfMZO",
+      "id" : "26DN8VRVU1IRg0AFgUfMZO",
+      "images" : [ {
+        "height" : 994,
+        "url" : "https://i.scdn.co/image/d2d1943b5bc9c3cc5464d3c948eab477d4d59e05",
+        "width" : 1000
+      }, {
+        "height" : 636,
+        "url" : "https://i.scdn.co/image/8f896af4e874ee5bd66489676d40bf4dd6500b62",
+        "width" : 640
+      }, {
+        "height" : 199,
+        "url" : "https://i.scdn.co/image/b1d92f512e47087ab0a56a2d27d36c09640209bd",
+        "width" : 200
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/48c420405d19d09381d5541d239a9b7ae9bd3ed8",
+        "width" : 64
+      } ],
+      "name" : "Tania Maria",
+      "popularity" : 40,
+      "type" : "artist",
+      "uri" : "spotify:artist:26DN8VRVU1IRg0AFgUfMZO"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2M0MfjN3wqrrvKHXohxTfw"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 1013
+      },
+      "genres" : [ "entehno" ],
+      "href" : "https://api.spotify.com/v1/artists/2M0MfjN3wqrrvKHXohxTfw",
+      "id" : "2M0MfjN3wqrrvKHXohxTfw",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/b6d8d663b13f63032b3aaff3aee70d092f26aa92",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/5662903950f1818ee297149c3a186a5468405f2d",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/99cd22d779ab9023cde849ab3b7f5c78a5f2ab52",
+        "width" : 64
+      } ],
+      "name" : "Tania Tsanaklidou",
+      "popularity" : 35,
+      "type" : "artist",
+      "uri" : "spotify:artist:2M0MfjN3wqrrvKHXohxTfw"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6d82VM0QVVmxJoLfQ3KyrI"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 17
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/6d82VM0QVVmxJoLfQ3KyrI",
+      "id" : "6d82VM0QVVmxJoLfQ3KyrI",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/e73ee33f80510fe5ad2434c222f42160d1aad4c9",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/2ed9a17700c31c114b0b40432f9f895004b67857",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/627f4407293a468cb18111f0c762695fe9ba318f",
+        "width" : 64
+      } ],
+      "name" : "Tania Doko",
+      "popularity" : 26,
+      "type" : "artist",
+      "uri" : "spotify:artist:6d82VM0QVVmxJoLfQ3KyrI"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3PechyuYiSVduLF5JD6MAB"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 170
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/3PechyuYiSVduLF5JD6MAB",
+      "id" : "3PechyuYiSVduLF5JD6MAB",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/fff4866fd68c745c4448bca47579e7e809809aa5",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/0d677363b837c6826af8cef0194b3150783e01c9",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/1d19cb9d04ffbca6db9d3f4ee1d0c3e5d17cc75d",
+        "width" : 64
+      } ],
+      "name" : "Tania Pantoja",
+      "popularity" : 32,
+      "type" : "artist",
+      "uri" : "spotify:artist:3PechyuYiSVduLF5JD6MAB"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/19qTGIm0oATLXTyeacYCQP"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 186
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/19qTGIm0oATLXTyeacYCQP",
+      "id" : "19qTGIm0oATLXTyeacYCQP",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/5d73e50177ccb21179208bbe11d1d1c30f4bf98b",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/38e8ac4a5c4afdea2884957a95af0d46f11805e3",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/71f3efc27fa57ac7d689eb8fc8b99b520e8fc99f",
+        "width" : 64
+      } ],
+      "name" : "Tania",
+      "popularity" : 26,
+      "type" : "artist",
+      "uri" : "spotify:artist:19qTGIm0oATLXTyeacYCQP"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5XN8KhxZVObkfRvTgsQFuN"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 2821
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/5XN8KhxZVObkfRvTgsQFuN",
+      "id" : "5XN8KhxZVObkfRvTgsQFuN",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/4adc4f7c33245f10a491f8b874e11195adc58187",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/236ef97fd5005a4071da27f4a9cfd79e672df631",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/b7675a65c732db6122f3499fd4a210f208349d3f",
+        "width" : 64
+      } ],
+      "name" : "Tania Mara",
+      "popularity" : 44,
+      "type" : "artist",
+      "uri" : "spotify:artist:5XN8KhxZVObkfRvTgsQFuN"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2nvZRZAeuKXzsntCKFHTKh"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 4912
+      },
+      "genres" : [ "bolero" ],
+      "href" : "https://api.spotify.com/v1/artists/2nvZRZAeuKXzsntCKFHTKh",
+      "id" : "2nvZRZAeuKXzsntCKFHTKh",
+      "images" : [ {
+        "height" : 1006,
+        "url" : "https://i.scdn.co/image/142c0e4794656b9552e6389667d9184351a14ea9",
+        "width" : 1000
+      }, {
+        "height" : 644,
+        "url" : "https://i.scdn.co/image/5e59ce377125ec023b4b07fdcc9deb3cb3f2aaaf",
+        "width" : 640
+      }, {
+        "height" : 201,
+        "url" : "https://i.scdn.co/image/d58cb6e93e4024691338a5605b4b80c9c4ad69f0",
+        "width" : 200
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/d986d7d95b24ef04d36b437c4c5dd841dc5d8915",
+        "width" : 64
+      } ],
+      "name" : "Tania Libertad",
+      "popularity" : 53,
+      "type" : "artist",
+      "uri" : "spotify:artist:2nvZRZAeuKXzsntCKFHTKh"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4RGcPS3EtL07RWngmanjjI"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 565
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/4RGcPS3EtL07RWngmanjjI",
+      "id" : "4RGcPS3EtL07RWngmanjjI",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/378f06f24bfc93de0b6bd32c041d241a22496172",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/0fa1c934860dda2e6b58fe27d3545607757dadee",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/af4cd68d26488e969e9d7d307863d60615d768ea",
+        "width" : 64
+      } ],
+      "name" : "Tania Saleh",
+      "popularity" : 24,
+      "type" : "artist",
+      "uri" : "spotify:artist:4RGcPS3EtL07RWngmanjjI"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5EsfCtpGgrpGyU5q4tS3wB"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 5
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/5EsfCtpGgrpGyU5q4tS3wB",
+      "id" : "5EsfCtpGgrpGyU5q4tS3wB",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/3587cdadc48c5bd29e3f715acadf0bedfc0f315e",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/465456c8f7929480debb2fb62f369f176db28f72",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/c1733f4d19f8a7b4070188e367e01b4fe2601cc9",
+        "width" : 64
+      } ],
+      "name" : "Tania Eshaghoff Friedberg",
+      "popularity" : 5,
+      "type" : "artist",
+      "uri" : "spotify:artist:5EsfCtpGgrpGyU5q4tS3wB"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/1ebUo23AWCxBfiXQgWSr8e"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 184
+      },
+      "genres" : [ "australian country" ],
+      "href" : "https://api.spotify.com/v1/artists/1ebUo23AWCxBfiXQgWSr8e",
+      "id" : "1ebUo23AWCxBfiXQgWSr8e",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/cbd5f5718ae9d7a063a6a982881942a1e0c6fcbd",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/652e0362b91d5542f1f816f6c5da57d64552e5f1",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/71eadb63c15ae38b906727ab50b7b5c2f2ea0f87",
+        "width" : 64
+      } ],
+      "name" : "TANIA KERNAGHAN",
+      "popularity" : 20,
+      "type" : "artist",
+      "uri" : "spotify:artist:1ebUo23AWCxBfiXQgWSr8e"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/23v6A81QRt448sypKvV3zs"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 61
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/23v6A81QRt448sypKvV3zs",
+      "id" : "23v6A81QRt448sypKvV3zs",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/6e8e6935b6d25d1c819ec624509cb3afe8cd65f6",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/7db260ddb3eff86740a0dc63d10407c8e579b75d",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/f471e66b3497a67c8e81bb552de79ac16d95106b",
+        "width" : 64
+      } ],
+      "name" : "Tania Ponce",
+      "popularity" : 23,
+      "type" : "artist",
+      "uri" : "spotify:artist:23v6A81QRt448sypKvV3zs"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2qWJRKfIAb3Ookyq06o1br"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 30
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/2qWJRKfIAb3Ookyq06o1br",
+      "id" : "2qWJRKfIAb3Ookyq06o1br",
+      "images" : [ ],
+      "name" : "Tania G.",
+      "popularity" : 16,
+      "type" : "artist",
+      "uri" : "spotify:artist:2qWJRKfIAb3Ookyq06o1br"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/1I2ZfQKQQyFgHpbmNLxqZq"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 11
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/1I2ZfQKQQyFgHpbmNLxqZq",
+      "id" : "1I2ZfQKQQyFgHpbmNLxqZq",
+      "images" : [ ],
+      "name" : "Tania Davis",
+      "popularity" : 24,
+      "type" : "artist",
+      "uri" : "spotify:artist:1I2ZfQKQQyFgHpbmNLxqZq"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2NuxIEdD6vIDfaNXYShL1H"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 568
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/2NuxIEdD6vIDfaNXYShL1H",
+      "id" : "2NuxIEdD6vIDfaNXYShL1H",
+      "images" : [ {
+        "height" : 600,
+        "url" : "https://i.scdn.co/image/6ed9cbfafc1bc2b3a3acd847b07fd2aad9ecb7f0",
+        "width" : 600
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/efe8e3367e5736074df63d846ffc141abf97ffb1",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/1c86e54b668ae680197011f144068ae4768be998",
+        "width" : 64
+      } ],
+      "name" : "Tania Vulcano",
+      "popularity" : 20,
+      "type" : "artist",
+      "uri" : "spotify:artist:2NuxIEdD6vIDfaNXYShL1H"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6SGbjJVyIarBpklapf8wSu"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 5
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/6SGbjJVyIarBpklapf8wSu",
+      "id" : "6SGbjJVyIarBpklapf8wSu",
+      "images" : [ ],
+      "name" : "Tania Laila",
+      "popularity" : 9,
+      "type" : "artist",
+      "uri" : "spotify:artist:6SGbjJVyIarBpklapf8wSu"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/1nqJ6t52uD6NHTQ5PSFufC"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 7
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/1nqJ6t52uD6NHTQ5PSFufC",
+      "id" : "1nqJ6t52uD6NHTQ5PSFufC",
+      "images" : [ ],
+      "name" : "Tania Cruz",
+      "popularity" : 13,
+      "type" : "artist",
+      "uri" : "spotify:artist:1nqJ6t52uD6NHTQ5PSFufC"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3pmBRK8nS4pId7VHxnkjJ4"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 17
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/3pmBRK8nS4pId7VHxnkjJ4",
+      "id" : "3pmBRK8nS4pId7VHxnkjJ4",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/f64a83719ee04943fabda4957b59721ce6dfb7d9",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/4490983dfe16c1f8ab318e7205770f311aaa4ebc",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/3a7139d3caf13b7bc4025ddd80eaa4328e4bbbeb",
+        "width" : 64
+      } ],
+      "name" : "Tania Hancheroff",
+      "popularity" : 6,
+      "type" : "artist",
+      "uri" : "spotify:artist:3pmBRK8nS4pId7VHxnkjJ4"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5if8G5SynDWl0hh49IqqOE"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 196
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/5if8G5SynDWl0hh49IqqOE",
+      "id" : "5if8G5SynDWl0hh49IqqOE",
+      "images" : [ {
+        "height" : 634,
+        "url" : "https://i.scdn.co/image/c800753ab4c32e818c63c8b73ed07a4f50aab67d",
+        "width" : 640
+      }, {
+        "height" : 297,
+        "url" : "https://i.scdn.co/image/eef73fd95202dc4dee74cfd6e2481cbec9032e67",
+        "width" : 300
+      }, {
+        "height" : 63,
+        "url" : "https://i.scdn.co/image/490d862647043fdc1dd45c3f729a5a27bd77f7a7",
+        "width" : 64
+      } ],
+      "name" : "Tânia Alves",
+      "popularity" : 26,
+      "type" : "artist",
+      "uri" : "spotify:artist:5if8G5SynDWl0hh49IqqOE"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5NtGAZoL358u4gYi6tlvki"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 42
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/5NtGAZoL358u4gYi6tlvki",
+      "id" : "5NtGAZoL358u4gYi6tlvki",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/5435cdaa96550b8186aad74a176c9d1d8ec68ed7",
+        "width" : 640
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/c935345c7c9fadf1d64c6b2f9e9960eccba91282",
+        "width" : 300
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/19b0409b436bf1961c79c5ade26714b519102853",
+        "width" : 64
+      } ],
+      "name" : "Tania Rose",
+      "popularity" : 17,
+      "type" : "artist",
+      "uri" : "spotify:artist:5NtGAZoL358u4gYi6tlvki"
+    } ],
+    "limit" : 20,
+    "next" : "https://api.spotify.com/v1/search?query=tania*&offset=20&limit=20&type=artist",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 272
+  }
+}

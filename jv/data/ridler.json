@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Forrest Ridler",
+    "_id": 1,
+    "gitHub": "ridler",
+    "friends": [
+      "Trent Begin",
+      "Trevor Cook",
+      "Addison Galambos",
+      "Dani Zink"
+    ],
+    "costs": [
+      {
+        "item": "Munich - Venice Train Reservation",
+        "date": "6/1/2015",
+        "price": 420.69,
+        "debtors": [
+          {
+            "name": "Trent Begin",
+            "owes": 20.69
+          },
+          {
+            "name": "Trevor Cook",
+            "owes": 300
+          }
+        ]
+      }
+    ]
+  }
+]
