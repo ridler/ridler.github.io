@@ -1,32 +1,64 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="description" content="Forrest Tagg Joshua Ridler">
-	    <meta name="author" content="Forrest Tagg Joshua Ridler">
-	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>  
-	    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-	    <link href="style.css" rel="stylesheet">
-	</head>
-	<body>
-		<div class="container" id="home">
-			<img class="img-responsive center" src="img/NameTxt.png" id="nameBanner">
-			<a href="resume.html">
-				<img class="img-responsive center subImg fly-in-left" src="img/ResumeTxt.png">
-			</a>
-			<a href="https://github.com/ridler">
-				<img class="img-responsive center subImg fly-in-right" src="img/ProjectsTxt.png">
-			</a>
-			<table class="table table-condensed fly-in-left" id="contactTable">
-				<tr><td></td><td align="center">Find Me</td><td></td></tr>
-				<tr>
-					<td align="left"><a href="https://linkedin.com/in/ridler"><img class="link-icon" src="img/linkedin.png"></a></td>
-					<td align="center"><a href="https://github.com/ridler/"><img class="link-icon" src="img/github.png"></a></td>
-					<td align="right"><a href="https://twitter.com/FTRidler"><img class="link-icon" src="img/twitter.jpg"></a></td>
-				</tr>
-			</table>
-		</div>
 
-	</body>
+<head>
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <nav>
+    <a class="nav-link" href="#" onclick="loadRoute('home')">Home <span class="active-anchor">✶</span></a>
+    <a class="nav-link" href="#" onclick="loadRoute('resume')">Resume</a>
+    <a class="nav-link" href="#" onclick="loadRoute('contact')">Contact</a>
+  </nav>
+  <div id="mainframe">
+    <h1>Forrest Tagg Joshua Ridler</h1>
+    <div id="maincontent">
+      <div class="route-content" id="home">
+        <div class="card">
+          <h2>Welcome to my personal website!</h2>
+          <p>I hope you find what you're looking for. If you're not looking for anything specific, enjoy this binary-scale clock.</p>
+          <p>It doesn't tell time, but you should be able to tell how long you've been watching it based on the position of the rings. Each ring's relative radius corresponds directly to how long it takes to complete a cycle. Don't waste too much time staring
+            at it!</p>
+          <p>The scale is 4, 8, 16, and 32 for the rings' radius and revolution time. The containing circle's relative value is 64.</p>
+        </div>
+        <svg id="clock" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64">
+          <circle cx="32" cy="32" r="32" style="fill:#354554; stroke:none"></circle>
+          <circle cx="32" cy="18" r="16" style="stroke:white; fill:none">
+            <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" begin="0s" dur="32s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="32" cy="10" r="8" style="stroke:white; fill:none">
+            <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" begin="0s" dur="16s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="32" cy="6" r="4" style="stroke:white; fill:none">
+            <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" begin="0s" dur="8s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="32" cy="4" r="2" style="stroke:white; fill:none">
+            <animateTransform attributeName="transform" type="rotate" from="0 32 32" to="360 32 32" begin="0s" dur="4s" repeatCount="indefinite" />
+          </circle>
+        </svg>
+      </div>
+      <div class="route-content" id="resume">
+        <a href="https://docs.google.com/document/d/14IiAo4F0QZ20fwJmnbO0REuY78B97a55W8UFeKEpohM/edit?usp=sharing">Please click here to view my resume in its best format.</a>
+        <iframe src="https://docs.google.com/document/d/14IiAo4F0QZ20fwJmnbO0REuY78B97a55W8UFeKEpohM/pub?embedded=true"></iframe>
+      </div>
+      <div class="route-content" id="contact">
+        <div class="card centered-content">
+          <h3>LinkedIn</h3>
+          <p>The best way to get in touch with me.</p>
+          <a href="https://www.linkedin.com/in/ridler">
+            <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Forrest Ridler's profile on LinkedIn">
+          </a>
+        </div>
+        <div class="card centered-content">
+          <a href="https://github.com/ridler"><h3>GitHub</h3></a>
+          <iframe src="https://githubbadge.appspot.com/ridler" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
