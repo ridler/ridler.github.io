@@ -4,6 +4,10 @@ import "./App.css";
 
 const HomeComponent = lazy(() => import("./Home/Home"));
 const CreativeComponent = lazy(() => import("./Creative/Creative"));
+const CreativeHomeComponent = lazy(() => import("./Creative/Home/Home"));
+const CreativeShortsComponent = lazy(
+  () => import("./Creative/Fiction/Shorts/Shorts")
+);
 
 export function App() {
   return (
@@ -27,7 +31,24 @@ export function App() {
                     <CreativeComponent />
                   </Suspense>
                 }
-              ></Route>
+              >
+                <Route
+                  path=""
+                  element={
+                    <Suspense>
+                      <CreativeHomeComponent />
+                    </Suspense>
+                  }
+                ></Route>
+                <Route
+                  path="shorts"
+                  element={
+                    <Suspense>
+                      <CreativeShortsComponent />
+                    </Suspense>
+                  }
+                ></Route>
+              </Route>
             </Routes>
           </BrowserRouter>
           <Outlet />

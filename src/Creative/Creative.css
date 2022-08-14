@@ -17,17 +17,22 @@
   display: flex;
   align-items: center;
   padding: 0 0.5rem;
+  justify-content: center;
 }
 
 .Creative-nav-breadcrumb {
   font-size: 2rem;
+}
+
+.Creative-nav-breadcrumb-separator {
+  font-size: 2rem;
   text-decoration: none;
+  margin: 0 0.5rem;
 }
 
 .Home-label-link {
   font-family: "Abril Fatface", Times, serif;
-  text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .Creative-outlet {

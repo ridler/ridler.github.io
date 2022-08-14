@@ -7,11 +7,6 @@
   text-align: center;
 }
 
-.Home a,
-a:visited {
-  color: inherit;
-}
-
 .top-label {
   font-family: "Abril Fatface", Times, serif;
 }
@@ -28,7 +23,7 @@ a:visited {
 .Home-nav ul {
   font-size: 1.75rem;
   list-style-type: none;
-  margin-top: 1.5rem;
+  margin: 1.5rem 0 0 2rem;
   text-align: left;
 }
 
