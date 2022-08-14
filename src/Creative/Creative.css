@@ -1,0 +1,40 @@
+.Creative {
+  font-family: serif;
+}
+
+.Creative-nav {
+  /* background-color: #ffa500; */
+  height: 3rem;
+  /* margin: -0.5rem 0 0 0; */
+  border-bottom: 0.5rem solid #ffa500;
+}
+
+.Creative-nav-content {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.Creative-nav-breadcrumb {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.Home-label-link {
+  font-family: "Abril Fatface", Times, serif;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.Creative-outlet {
+  max-height: calc(100vh - 7rem);
+  overflow-y: auto;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0.5rem;
+}
