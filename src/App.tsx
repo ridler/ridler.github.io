@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { lazy, Suspense } from "react";
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import "./App.css";
 
-function App() {
+const HomeComponent = lazy(() => import("./Home/Home"));
+const CreativeComponent = lazy(() => import("./Creative/Creative"));
+
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Outermost">
+      <div className="SecondOutermost">
+        <div className="AppContainer">
+          <BrowserRouter>
+            <Routes>
+              <Route
+                path="/"
+                element={
+                  <Suspense>
+                    <HomeComponent />
+                  </Suspense>
+                }
+              ></Route>
+              <Route
+                path="creative"
+                element={
+                  <Suspense>
+                    <CreativeComponent />
+                  </Suspense>
+                }
+              ></Route>
+            </Routes>
+          </BrowserRouter>
+          <Outlet />
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
