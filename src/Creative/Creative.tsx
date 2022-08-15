@@ -1,10 +1,16 @@
-import { lazy, Suspense } from "react";
-import { BrowserRouter, Link, Outlet, Route, Routes } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, Outlet, useLocation } from "react-router-dom";
 
 import "./Creative.css";
-const HomeComponent = lazy(() => import("./Home/Home"));
 
 export default function Creative() {
+  const location = useLocation();
+  const [leafRouteName, setLeafRouteName] = useState("");
+
+  useEffect(() => {
+    setLeafRouteName(location.pathname.replace(/\/creative\/?/, ""));
+  }, [location]);
+
   return (
     <div className="Creative">
       <nav className="Creative-nav">
@@ -16,7 +22,10 @@ export default function Creative() {
           <Link to="" className="Creative-nav-breadcrumb inner-link">
             creative
           </Link>
-          <pre className="Creative-nav-breadcrumb-separator">/</pre>
+          {leafRouteName && (
+            <pre className="Creative-nav-breadcrumb-separator">/</pre>
+          )}
+          <span className="Creative-nav-breadcrumb">{leafRouteName}</span>
         </div>
       </nav>
       <div className="Creative-outlet">

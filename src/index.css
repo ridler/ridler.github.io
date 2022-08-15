@@ -26,6 +26,7 @@ code {
 a,
 a:visited {
   color: inherit;
+  text-decoration: underline;
 }
 
 .inner-link {
@@ -39,4 +40,23 @@ a:visited {
 
 .font-fatface {
   font-family: "Abril Fatface", Times, serif;
+}
+
+.image-with-aspect {
+  width: 100%;
+  height: auto;
+}
+
+.section-title {
+  font-family: "Abril Fatface", Times, serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+@media screen and (min-width: 600px) {
+  .image-with-aspect {
+    height: calc(100vh - 14rem);
+    width: auto;
+  }
 }

@@ -7,10 +7,9 @@
 
 .SecondOutermost {
   border: 0.25rem solid red;
-  /* min-height: calc(100vh - 1rem); */
 }
 
 .AppContainer {
   border: 0.5rem solid #ffa500;
-  min-height: calc(100vh - 3rem);
+  min-height: calc(100vh - 2rem);
 }

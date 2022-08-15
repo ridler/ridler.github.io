@@ -15,9 +15,11 @@ export default function Home() {
           <a>Sacred Path</a>
         </li>
         <li>
-          <Link className="inner-link" to="/">
-            <h2>Design</h2>
-          </Link>
+          <h2>
+            <Link className="inner-link" to="/">
+              Design
+            </Link>
+          </h2>
         </li>
         <h2>External</h2>
         <li>
