@@ -8,6 +8,10 @@ const CreativeHomeComponent = lazy(() => import("./Creative/Home/Home"));
 const CreativeShortsComponent = lazy(
   () => import("./Creative/Fiction/Shorts/Shorts")
 );
+const CreativeHummingbirdComponent = lazy(
+  () => import("./Creative/Fiction/Hummingbird/Hummingbird")
+);
+
 const CreativeDesignComponent = lazy(() => import("./Creative/Design/Design"));
 
 export function App() {
@@ -46,6 +50,14 @@ export function App() {
                   element={
                     <Suspense>
                       <CreativeShortsComponent />
+                    </Suspense>
+                  }
+                ></Route>
+                <Route
+                  path="bird"
+                  element={
+                    <Suspense>
+                      <CreativeHummingbirdComponent />
                     </Suspense>
                   }
                 ></Route>

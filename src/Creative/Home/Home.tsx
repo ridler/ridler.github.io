@@ -12,6 +12,11 @@ export default function Home() {
           </Link>
         </li>
         <li>
+          <Link className="inner-link" to="bird">
+            Hummingbird
+          </Link>
+        </li>
+        <li>
           <h2>
             <Link className="inner-link" to="design">
               Design

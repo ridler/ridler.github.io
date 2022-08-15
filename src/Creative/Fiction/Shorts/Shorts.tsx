@@ -42,6 +42,63 @@ export default function Shorts() {
           <p>(You already know though, that's the motto: YOLO)</p>
         </div>
       </div>
+      <h2 className="section-title">Benign Bliss</h2>
+      <div className="tw-flex tw-flex-col md:tw-flex-row tw-items-center">
+        <div>
+          <img
+            className="image-with-aspect"
+            src={require("./BenignBliss.jpg")}
+          />
+        </div>
+        <div
+          className="tw-py-4 tw-text-xs md:tw-px-6 md:tw-text-base"
+          style={{ color: "#113148" }}
+        >
+          <p>I climbed up this mountain looking down.</p>
+          <p>Everything was beneath me.</p>
+          <p>I was above it all.</p>
+          <p></p>
+          <p>Ascending the forested slopes,</p>
+          <p>I was critical, cynical and sad.</p>
+          <p></p>
+          <p>I reached a ridge where the trees stopped growing,</p>
+          <p>And set down the luggage I was towing.</p>
+          <p>Smugly proud of my endurance and strength,</p>
+          <p>My feet and legs were far above average.</p>
+          <p></p>
+          <p>I finally looked up, and saw the summit still far above me.</p>
+          <p>Humbled, I realized I would never reach the peak.</p>
+          <p></p>
+          <p>Beyond my perch were even higher peaks.</p>
+          <p>Were greater athletes on their summits?</p>
+          <p>Looking down at the ridge I was on?</p>
+          <p>Looking down on me?</p>
+          <p></p>
+          <p>I imagined how exhausted they must be.</p>
+          <p>I realized how exhausted I was.</p>
+          <p></p>
+          <p>I turned my gaze toward the base</p>
+          <p>And saw the town I came from:</p>
+          <p>The town to which I had to return.</p>
+          <p></p>
+          <p>I thought about how nice it was to even have the time...</p>
+          <p>To think such a thought,</p>
+          <p>In such a place,</p>
+          <p>With such a view.</p>
+          <p></p>
+          <p>I left my luggage on that ledge.</p>
+          <p>Lighter, I headed down,</p>
+          <p>Stoked to simply slide on the snow</p>
+          <p></p>
+          <p>All the way:</p>
+          <p>Finding joy in things that were juvenile,</p>
+          <p>Easily impressed by the imperfect,</p>
+          <p>Finding bliss in the benign.</p>
+          <p></p>
+          <p>Taking in the view, I found a new mood:</p>
+          <p>One of generosity and gratitude.</p>
+        </div>
+      </div>
     </div>
   );
 }
