@@ -5,6 +5,7 @@ export default function Shorts() {
       <div className="tw-flex tw-flex-col md:tw-flex-row tw-items-center">
         <div>
           <img
+            alt=""
             className="image-with-aspect"
             src={require("./windyGates.jpg")}
           />
@@ -46,6 +47,7 @@ export default function Shorts() {
       <div className="tw-flex tw-flex-col md:tw-flex-row tw-items-center">
         <div>
           <img
+            alt=""
             className="image-with-aspect"
             src={require("./BenignBliss.jpg")}
           />

@@ -4,6 +4,7 @@ export default function Hummingbird() {
       <h2 className="section-title">Hummingbird</h2>
       <div>
         <img
+          alt=""
           className="image-with-aspect"
           src={require("./HummingbirdWindow.jpg")}
         />
@@ -19,6 +20,7 @@ export default function Hummingbird() {
       </div>
       <div>
         <img
+          alt=""
           className="image-with-aspect"
           src={require("./HummingbirdStadium.jpg")}
         />
