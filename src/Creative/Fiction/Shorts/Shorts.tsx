@@ -43,7 +43,7 @@ export default function Shorts() {
           <p>(You already know though, that's the motto: YOLO)</p>
         </div>
       </div>
-      <h2 className="section-title">Benign Bliss</h2>
+      <h2 className="section-title tw-mt-6">Benign Bliss</h2>
       <div className="tw-flex tw-flex-col md:tw-flex-row tw-items-center">
         <div>
           <img
