@@ -8,6 +8,7 @@ const CreativeHomeComponent = lazy(() => import("./Creative/Home/Home"));
 const CreativeShortsComponent = lazy(
   () => import("./Creative/Fiction/Shorts/Shorts")
 );
+const CreativeDesignComponent = lazy(() => import("./Creative/Design/Design"));
 
 export function App() {
   return (
@@ -45,6 +46,14 @@ export function App() {
                   element={
                     <Suspense>
                       <CreativeShortsComponent />
+                    </Suspense>
+                  }
+                ></Route>
+                <Route
+                  path="design"
+                  element={
+                    <Suspense>
+                      <CreativeDesignComponent />
                     </Suspense>
                   }
                 ></Route>
