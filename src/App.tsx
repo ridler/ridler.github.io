@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import { HashRouter, Routes, Route, Outlet } from "react-router-dom";
 import "./App.css";
 
 const HomeComponent = lazy(() => import("./Home/Home"));
@@ -19,7 +19,7 @@ export function App() {
     <div className="Outermost">
       <div className="SecondOutermost">
         <div className="AppContainer">
-          <BrowserRouter>
+          <HashRouter>
             <Routes>
               <Route
                 path="/"
@@ -71,7 +71,7 @@ export function App() {
                 ></Route>
               </Route>
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
           <Outlet />
         </div>
       </div>
